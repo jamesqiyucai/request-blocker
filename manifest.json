@@ -1,0 +1,13 @@
+{
+    "name": "Request Blocker",
+    "description": "Block all request if a file is opened in the browser",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "declarativeNetRequest",
+        "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
